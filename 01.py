@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")  # デコレーター /アクセスがあったとき ～:5000/
 def hello():
-    return "Hello World!"
+    return "Hello Member"
 
 
 if __name__ == "__main__":
